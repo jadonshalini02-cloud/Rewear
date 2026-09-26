@@ -1,0 +1,6 @@
+{
+  "name": "ReWear",
+  "description": "A sustainable clothing exchange and swap marketplace for conscious fashion lovers.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

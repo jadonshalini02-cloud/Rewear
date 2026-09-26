@@ -1,0 +1,607 @@
+{
+  "users": [
+    {
+      "id": "user_demo",
+      "name": "Priya Sharma",
+      "email": "demo.user@example.com",
+      "passwordHash": "$2b$10$gPPdFjzi5f1NO6buaH5ZEeIUqqT3h21rH9RUY2.df.sw856OZAJ2.",
+      "role": "USER",
+      "location": "Bangalore, Indiranagar",
+      "bio": "Eco-conscious fashion designer. Loving second-hand denim, linen tailoring, and artisanal handloom fabrics. Committed to zero-waste wardrobe swapping!",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "status": "ACTIVE",
+      "rating": 4.9,
+      "reviewCount": 14,
+      "createdAt": "2026-07-28T12:06:23.748Z",
+      "updatedAt": "2026-09-26T12:10:45.273Z"
+    },
+    {
+      "id": "user_admin",
+      "name": "ReWear Admin",
+      "email": "admin@example.com",
+      "passwordHash": "$2b$10$gPPdFjzi5f1NO6buaH5ZEes9DNqWqj5vuHDgVa9ODLsqKTdqtR2oi",
+      "role": "ADMIN",
+      "location": "Mumbai, Bandra",
+      "bio": "Platform safety, community moderation and circular fashion sustainability coordinator.",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "status": "ACTIVE",
+      "rating": 5,
+      "reviewCount": 48,
+      "createdAt": "2026-05-29T12:06:23.748Z",
+      "updatedAt": "2026-09-25T12:06:23.748Z"
+    },
+    {
+      "id": "user_aarav",
+      "name": "Aarav Patel",
+      "email": "aarav.patel@example.com",
+      "passwordHash": "$2b$10$gPPdFjzi5f1NO6buaH5ZEeCqwbu5FXxXbeqT1FUB77Nys1d54.jnu",
+      "role": "USER",
+      "location": "Mumbai, Andheri West",
+      "bio": "Streetwear collector & vintage enthusiast. Swapping jackets, hoodies, and limited drops.",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "status": "ACTIVE",
+      "rating": 4.8,
+      "reviewCount": 9,
+      "createdAt": "2026-08-12T12:06:23.748Z",
+      "updatedAt": "2026-09-21T12:06:23.748Z"
+    },
+    {
+      "id": "user_ananya",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@example.com",
+      "passwordHash": "$2b$10$gPPdFjzi5f1NO6buaH5ZEeCqwbu5FXxXbeqT1FUB77Nys1d54.jnu",
+      "role": "USER",
+      "location": "Delhi, Hauz Khas",
+      "bio": "Handloom lover and minimalist capsule wardrobe practitioner. Swapping ethnic & formal wear.",
+      "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80",
+      "status": "ACTIVE",
+      "rating": 5,
+      "reviewCount": 18,
+      "createdAt": "2026-06-28T12:06:23.748Z",
+      "updatedAt": "2026-09-23T12:06:23.748Z"
+    },
+    {
+      "id": "user_rohan",
+      "name": "Rohan Das",
+      "email": "rohan.das@example.com",
+      "passwordHash": "$2b$10$gPPdFjzi5f1NO6buaH5ZEeCqwbu5FXxXbeqT1FUB77Nys1d54.jnu",
+      "role": "USER",
+      "location": "Pune, Koregaon Park",
+      "bio": "Outdoor gear, rugged jackets & organic cotton shirts. Let us stop buying cheap synthetic clothes!",
+      "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80",
+      "status": "ACTIVE",
+      "rating": 4.7,
+      "reviewCount": 7,
+      "createdAt": "2026-08-27T12:06:23.748Z",
+      "updatedAt": "2026-09-25T12:06:23.748Z"
+    },
+    {
+      "id": "user_zara",
+      "name": "Zara Khan",
+      "email": "zara.khan@example.com",
+      "passwordHash": "$2b$10$gPPdFjzi5f1NO6buaH5ZEeCqwbu5FXxXbeqT1FUB77Nys1d54.jnu",
+      "role": "USER",
+      "location": "Hyderabad, Jubilee Hills",
+      "bio": "Stylist curating premium ethnic kurtas, western trench coats, and boho midi dresses.",
+      "avatarUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
+      "status": "ACTIVE",
+      "rating": 4.9,
+      "reviewCount": 22,
+      "createdAt": "2026-07-13T12:06:23.748Z",
+      "updatedAt": "2026-09-22T12:06:23.748Z"
+    },
+    {
+      "id": "user_meera",
+      "name": "Meera Nambiar",
+      "email": "meera.nambiar@example.com",
+      "passwordHash": "$2b$10$gPPdFjzi5f1NO6buaH5ZEeCqwbu5FXxXbeqT1FUB77Nys1d54.jnu",
+      "role": "USER",
+      "location": "Kochi, Fort Kochi",
+      "bio": "Slow fashion advocate. Swapping coastal cotton wear, breezy co-ords and handmade accessories.",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "status": "ACTIVE",
+      "rating": 4.8,
+      "reviewCount": 11,
+      "createdAt": "2026-08-17T12:06:23.748Z",
+      "updatedAt": "2026-09-24T12:06:23.748Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "item_1",
+      "ownerId": "user_demo",
+      "title": "Vintage 90s Trucker Denim Jacket",
+      "description": "Authentic 90s heavyweight denim jacket with natural faded patina. Double chest pockets, copper rivets, and a classic boxy fit. 100% pure cotton selvedge denim. Cleaned and kept in smoke-free environment.",
+      "category": "Unisex",
+      "subcategory": "Jackets",
+      "brand": "Levi's",
+      "size": "M",
+      "condition": "Excellent",
+      "color": "Indigo Blue",
+      "material": "100% Cotton Denim",
+      "estimatedValue": 2400,
+      "location": "Bangalore, Indiranagar",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 142,
+      "tags": [
+        "denim",
+        "vintage",
+        "outerwear",
+        "classic",
+        "cotton"
+      ],
+      "createdAt": "2026-09-12T12:06:23.748Z",
+      "updatedAt": "2026-09-26T12:13:12.723Z"
+    },
+    {
+      "id": "item_2",
+      "ownerId": "user_demo",
+      "title": "Relaxed Pure Linen Resort Shirt",
+      "description": "Breezy French flax linen shirt in sage green. Camp collar style with pearl shell buttons. Barely worn twice, perfect for summer getaways and cafe work sessions.",
+      "category": "Men",
+      "subcategory": "Shirts",
+      "brand": "Zara",
+      "size": "L",
+      "condition": "Like New",
+      "color": "Sage Green",
+      "material": "100% French Linen",
+      "estimatedValue": 1650,
+      "location": "Bangalore, Indiranagar",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 98,
+      "tags": [
+        "linen",
+        "summer",
+        "minimalist",
+        "sustainable"
+      ],
+      "createdAt": "2026-09-16T12:06:23.748Z",
+      "updatedAt": "2026-09-25T12:06:23.748Z"
+    },
+    {
+      "id": "item_3",
+      "ownerId": "user_demo",
+      "title": "Handcrafted Khadi Cotton Tunic Kurta",
+      "description": "Naturally dyed indigo khadi kurta with delicate wooden buttons and concealed side pockets. Super breathable handspun fabric from certified artisanal weavers in Wardha.",
+      "category": "Women",
+      "subcategory": "Ethnic Wear",
+      "brand": "Fabindia",
+      "size": "S",
+      "condition": "Excellent",
+      "color": "Deep Indigo",
+      "material": "Handspun Khadi Cotton",
+      "estimatedValue": 1800,
+      "location": "Bangalore, Indiranagar",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 76,
+      "tags": [
+        "khadi",
+        "handloom",
+        "ethnic",
+        "artisanal"
+      ],
+      "createdAt": "2026-09-18T12:06:23.748Z",
+      "updatedAt": "2026-09-23T12:06:23.748Z"
+    },
+    {
+      "id": "item_4",
+      "ownerId": "user_aarav",
+      "title": "Windrunner Retro Hooded Running Jacket",
+      "description": "Lightweight technical windbreaker in retro monochrome colorway. Water-repellent recycled polyester fabric with chevron front design, mesh lining, and zip pockets.",
+      "category": "Men",
+      "subcategory": "Jackets",
+      "brand": "Nike",
+      "size": "M",
+      "condition": "Like New",
+      "color": "Black & White",
+      "material": "Recycled Polyester",
+      "estimatedValue": 2800,
+      "location": "Mumbai, Andheri West",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 184,
+      "tags": [
+        "streetwear",
+        "sportswear",
+        "nike",
+        "windbreaker"
+      ],
+      "createdAt": "2026-09-08T12:06:23.748Z",
+      "updatedAt": "2026-09-22T12:06:23.748Z"
+    },
+    {
+      "id": "item_5",
+      "ownerId": "user_aarav",
+      "title": "501 Original Fit Selvedge Denim Jeans",
+      "description": "Iconic straight-leg 501 jeans in medium wash. 100% heavyweight cotton with button fly and copper hardware. Hemmed to standard 32 inseam. Zero rips or fraying.",
+      "category": "Men",
+      "subcategory": "Jeans",
+      "brand": "Levi's",
+      "size": "32",
+      "condition": "Excellent",
+      "color": "Medium Blue",
+      "material": "100% Cotton",
+      "estimatedValue": 2200,
+      "location": "Mumbai, Andheri West",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 210,
+      "tags": [
+        "levis",
+        "jeans",
+        "classic",
+        "denim"
+      ],
+      "createdAt": "2026-09-05T12:06:23.748Z",
+      "updatedAt": "2026-09-20T12:06:23.748Z"
+    },
+    {
+      "id": "item_6",
+      "ownerId": "user_ananya",
+      "title": "Oversized Chunky Wool Knit Sweater",
+      "description": "Plush 100% merino wool knit pullover in oat cream. Ribbed crewneck with raglan sleeves and cozy dropped shoulder silhouette. Warm, soft, and completely non-itchy.",
+      "category": "Women",
+      "subcategory": "Sweaters",
+      "brand": "Uniqlo",
+      "size": "M",
+      "condition": "Like New",
+      "color": "Oatmeal Cream",
+      "material": "100% Merino Wool",
+      "estimatedValue": 2100,
+      "location": "Delhi, Hauz Khas",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 312,
+      "tags": [
+        "wool",
+        "knitwear",
+        "winter",
+        "minimalist",
+        "cream"
+      ],
+      "createdAt": "2026-09-14T12:06:23.748Z",
+      "updatedAt": "2026-09-25T12:06:23.748Z"
+    },
+    {
+      "id": "item_7",
+      "ownerId": "user_ananya",
+      "title": "Tiered Meadow Floral Linen Midi Dress",
+      "description": "Romantic tiered midi dress with square neckline and puff sleeves. Lined with organic cotton voile. Flattering smocked back panel for a comfortable fit.",
+      "category": "Women",
+      "subcategory": "Dresses",
+      "brand": "H&M Conscious",
+      "size": "S",
+      "condition": "Like New",
+      "color": "Olive Floral",
+      "material": "Organic Linen & Cotton",
+      "estimatedValue": 1950,
+      "location": "Delhi, Hauz Khas",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 245,
+      "tags": [
+        "dress",
+        "floral",
+        "summer",
+        "cottagecore",
+        "linen"
+      ],
+      "createdAt": "2026-09-11T12:06:23.748Z",
+      "updatedAt": "2026-09-24T12:06:23.748Z"
+    },
+    {
+      "id": "item_8",
+      "ownerId": "user_rohan",
+      "title": "Heavyweight Flannel Plaid Overshirt",
+      "description": "Brushed twill cotton workwear overshirt with dual utility pockets and tortoise shell buttons. Built for layering over basic tees.",
+      "category": "Men",
+      "subcategory": "Shirts",
+      "brand": "Uniqlo",
+      "size": "L",
+      "condition": "Good",
+      "color": "Forest Green & Navy",
+      "material": "100% Brushed Cotton",
+      "estimatedValue": 1400,
+      "location": "Pune, Koregaon Park",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 89,
+      "tags": [
+        "flannel",
+        "workwear",
+        "layering",
+        "casual"
+      ],
+      "createdAt": "2026-09-17T12:06:23.748Z",
+      "updatedAt": "2026-09-24T12:06:23.748Z"
+    },
+    {
+      "id": "item_9",
+      "ownerId": "user_zara",
+      "title": "Handloom Chanderi Silk Dupatta & Anarkali Set",
+      "description": "Exquisite pastel mint Chanderi silk suit set with subtle zari border work. Worn once for a family ceremony. Professionally dry-cleaned with original garment bag.",
+      "category": "Women",
+      "subcategory": "Ethnic Wear",
+      "brand": "Handloom Artisans",
+      "size": "M",
+      "condition": "Like New",
+      "color": "Pastel Mint",
+      "material": "Chanderi Silk & Cotton",
+      "estimatedValue": 3500,
+      "location": "Hyderabad, Jubilee Hills",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 380,
+      "tags": [
+        "chanderi",
+        "silk",
+        "festive",
+        "traditional",
+        "handloom"
+      ],
+      "createdAt": "2026-09-01T12:06:23.748Z",
+      "updatedAt": "2026-09-19T12:06:23.748Z"
+    },
+    {
+      "id": "item_10",
+      "ownerId": "user_zara",
+      "title": "Double-Breasted Tailored Wool Blazer",
+      "description": "Structured wool-blend blazer in charcoal herringbone pattern. Peak lapels, horn buttons, padded shoulders, and full satin interior lining.",
+      "category": "Women",
+      "subcategory": "Jackets",
+      "brand": "Zara",
+      "size": "M",
+      "condition": "Excellent",
+      "color": "Charcoal Grey",
+      "material": "Wool Blend",
+      "estimatedValue": 2700,
+      "location": "Hyderabad, Jubilee Hills",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 167,
+      "tags": [
+        "blazer",
+        "formal",
+        "tailored",
+        "workwear"
+      ],
+      "createdAt": "2026-09-10T12:06:23.748Z",
+      "updatedAt": "2026-09-23T12:06:23.748Z"
+    },
+    {
+      "id": "item_11",
+      "ownerId": "user_meera",
+      "title": "Artisanal Block-Printed Cotton Wrap Skirt",
+      "description": "Bagh block print flared wrap skirt in natural terracotta and indigo dyes. Breathable pure cotton with adjustable tie waistband. Handmade by craftswomen in MP.",
+      "category": "Women",
+      "subcategory": "Skirts",
+      "brand": "Artisan Collective",
+      "size": "Free Size",
+      "condition": "Like New",
+      "color": "Terracotta & Indigo",
+      "material": "100% Organic Cotton",
+      "estimatedValue": 1500,
+      "location": "Kochi, Fort Kochi",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 115,
+      "tags": [
+        "skirt",
+        "blockprint",
+        "boho",
+        "handmade"
+      ],
+      "createdAt": "2026-09-19T12:06:23.748Z",
+      "updatedAt": "2026-09-25T12:06:23.748Z"
+    },
+    {
+      "id": "item_12",
+      "ownerId": "user_rohan",
+      "title": "Waterproof All-Terrain Trail Hiking Boots",
+      "description": "GORE-TEX membrane waterproof hiking boots with Vibram megagrip sole. Worn on one gentle trekking weekend in Sahyadris. In clean, sturdy shape.",
+      "category": "Men",
+      "subcategory": "Shoes",
+      "brand": "Decathlon Quechua",
+      "size": "UK 9 / EU 43",
+      "condition": "Good",
+      "color": "Earth Brown",
+      "material": "Leather & Technical Mesh",
+      "estimatedValue": 2500,
+      "location": "Pune, Koregaon Park",
+      "status": "AVAILABLE",
+      "images": [
+        "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "views": 130,
+      "tags": [
+        "shoes",
+        "outdoor",
+        "hiking",
+        "boots"
+      ],
+      "createdAt": "2026-09-06T12:06:23.748Z",
+      "updatedAt": "2026-09-21T12:06:23.748Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "fav_1",
+      "userId": "user_demo",
+      "clothingItemId": "item_4",
+      "createdAt": "2026-09-23T12:06:23.748Z"
+    },
+    {
+      "id": "fav_2",
+      "userId": "user_demo",
+      "clothingItemId": "item_6",
+      "createdAt": "2026-09-24T12:06:23.748Z"
+    },
+    {
+      "id": "fav_3",
+      "userId": "user_demo",
+      "clothingItemId": "item_10",
+      "createdAt": "2026-09-25T12:06:23.748Z"
+    }
+  ],
+  "swaps": [
+    {
+      "id": "swap_req_1",
+      "requesterId": "user_aarav",
+      "receiverId": "user_demo",
+      "offeredItemId": "item_4",
+      "requestedItemId": "item_1",
+      "message": "Hey Priya! I've been searching everywhere for this exact 90s Levi's trucker jacket. My Nike windrunner is barely worn and is in pristine condition. Would love to swap!",
+      "status": "PENDING",
+      "createdAt": "2026-09-24T12:06:23.748Z",
+      "updatedAt": "2026-09-24T12:06:23.748Z"
+    },
+    {
+      "id": "swap_req_2",
+      "requesterId": "user_demo",
+      "receiverId": "user_ananya",
+      "offeredItemId": "item_2",
+      "requestedItemId": "item_6",
+      "message": "Hi Ananya! I love the texture and warm oat color of this knit sweater. Offering my French linen shirt from Zara. Let me know if you would like to swap!",
+      "status": "NEGOTIATING",
+      "createdAt": "2026-09-22T12:06:23.748Z",
+      "updatedAt": "2026-09-25T12:06:23.748Z"
+    },
+    {
+      "id": "swap_req_3",
+      "requesterId": "user_demo",
+      "receiverId": "user_zara",
+      "offeredItemId": "item_3",
+      "requestedItemId": "item_9",
+      "message": "Excited to do our first community handloom exchange!",
+      "status": "COMPLETED",
+      "createdAt": "2026-08-29T12:06:23.748Z",
+      "updatedAt": "2026-09-06T12:06:23.748Z",
+      "completedAt": "2026-09-06T12:06:23.748Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_1",
+      "swapRequestId": "swap_req_1",
+      "participantIds": [
+        "user_aarav",
+        "user_demo"
+      ],
+      "lastMessage": "Hey Priya! I've been searching everywhere for this exact 90s Levi's trucker jacket.",
+      "lastMessageAt": "2026-09-24T12:06:23.748Z",
+      "createdAt": "2026-09-24T12:06:23.748Z",
+      "updatedAt": "2026-09-24T12:06:23.748Z"
+    },
+    {
+      "id": "conv_2",
+      "swapRequestId": "swap_req_2",
+      "participantIds": [
+        "user_demo",
+        "user_ananya"
+      ],
+      "lastMessage": "Sounds great Priya! Could you share if the shirt is pre-washed and if the fit is true to size?",
+      "lastMessageAt": "2026-09-25T12:06:23.748Z",
+      "createdAt": "2026-09-22T12:06:23.748Z",
+      "updatedAt": "2026-09-25T12:06:23.748Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1",
+      "conversationId": "conv_1",
+      "senderId": "user_aarav",
+      "content": "Hey Priya! I've been searching everywhere for this exact 90s Levi's trucker jacket. My Nike windrunner is barely worn and is in pristine condition. Would love to swap!",
+      "createdAt": "2026-09-24T12:06:23.748Z"
+    },
+    {
+      "id": "msg_2",
+      "conversationId": "conv_2",
+      "senderId": "user_demo",
+      "content": "Hi Ananya! I love the texture and warm oat color of this knit sweater. Offering my French linen shirt from Zara. Let me know if you would like to swap!",
+      "createdAt": "2026-09-22T12:06:23.748Z"
+    },
+    {
+      "id": "msg_3",
+      "conversationId": "conv_2",
+      "senderId": "user_ananya",
+      "content": "Sounds great Priya! Could you share if the shirt is pre-washed and if the fit is true to size?",
+      "createdAt": "2026-09-25T12:06:23.748Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "userId": "user_demo",
+      "type": "SWAP_REQUEST",
+      "title": "New Swap Request Received",
+      "message": "Aarav Patel offered Nike Windrunner Retro Jacket for your Vintage 90s Denim Jacket.",
+      "link": "/swap-requests",
+      "read": false,
+      "createdAt": "2026-09-24T12:06:23.748Z"
+    },
+    {
+      "id": "notif_2",
+      "userId": "user_demo",
+      "type": "NEW_MESSAGE",
+      "title": "New Message from Ananya Iyer",
+      "message": "Sounds great Priya! Could you share if the shirt is pre-washed and if...",
+      "link": "/chat/conv_2",
+      "read": false,
+      "createdAt": "2026-09-25T12:06:23.748Z"
+    },
+    {
+      "id": "notif_3",
+      "userId": "user_demo",
+      "type": "SWAP_COMPLETED",
+      "title": "Swap Completed Successfully!",
+      "message": "Your exchange with Zara Khan was marked complete. You saved ~2.4kg of CO2 and 4,000L of water!",
+      "link": "/swaps",
+      "read": true,
+      "createdAt": "2026-09-06T12:06:23.748Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_1",
+      "reporterId": "user_rohan",
+      "reportedItemId": "item_12",
+      "reason": "Incorrect Size Tagging",
+      "description": "Item listing has shoe size in description as UK 9 but title says UK 8. Just need clarification for community members.",
+      "status": "PENDING",
+      "createdAt": "2026-09-23T12:06:23.748Z"
+    }
+  ]
+}
